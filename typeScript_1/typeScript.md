@@ -1,4 +1,4 @@
-# TypeScript：JavaScripe的超集
+# TypeScript：JavaScript的超集
 
 来源：http://www.typescriptlang.org/
 
