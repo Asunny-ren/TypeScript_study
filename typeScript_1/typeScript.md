@@ -29,6 +29,26 @@ var user = new Student('RJD', 'M.', 'RDD');
 document.body.innerHTML = req_user(user);
 ```
 
+tsc hello.ts
+
+``` javascript
+var Student = (function () {
+    function Student(firstName, middleInnitial, lastName) {
+        this.firstName = firstName;
+        this.middleInnitial = middleInnitial;
+        this.lastName = lastName;
+        this.fullName = firstName + ' ' + middleInnitial + ' ' + lastName;
+    }
+    return Student;
+}());
+function req_user(person) {
+    return "Hello, " + person.firstName + ' ' + person.lastName;
+}
+var user = new Student('RJD', 'M.', 'RDD');
+document.body.innerHTML = req_user(user);
+
+```
+
 
 ## 创建一个简单工程
 
