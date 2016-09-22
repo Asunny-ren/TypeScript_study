@@ -10,6 +10,7 @@
 // document.body.innerHTML = req_user(user);
 //类
 var Student = (function () {
+
     function Student(firstName, middleInnitial, lastName) {
         this.firstName = firstName;
         this.middleInnitial = middleInnitial;
